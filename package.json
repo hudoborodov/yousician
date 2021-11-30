@@ -1,0 +1,29 @@
+{
+  "name": "search",
+  "version": "1.0.0",
+  "description": "search",
+  "main": "search.js",
+  "scripts": {
+    "search": "node search",
+    "start": "node search",
+    "test": "mocha",
+    "testCov": "nyc --reporter=html mocha",
+    "eslint": "eslint . --fix"
+  },
+  "author": "Valera Hudoborodov",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "http-status": "^1.5.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^8.3.0",
+    "eslint-plugin-mocha": "^9.0.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "mocha": "^9.1.3",
+    "mock-fs": "^5.1.2",
+    "nyc": "^15.1.0"
+  }
+}

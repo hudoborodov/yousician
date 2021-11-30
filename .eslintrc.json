@@ -1,0 +1,25 @@
+{
+    "env": {
+        "es2021": true,
+        "node": true
+    },
+    "extends": ["eslint:recommended", "plugin:mocha/recommended"],
+    "plugins": ["prettier", "mocha"],
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "rules": {
+      "prettier/prettier": [
+        "error",
+        {
+          "tabWidth": 2,
+          "printWidth": 160,
+          "useTabs": false,
+          "trailingComma": "none",
+          "endOfLine": "auto",
+          "semi": true,
+          "arrowParens": "avoid"
+        }
+      ]
+    }
+}
